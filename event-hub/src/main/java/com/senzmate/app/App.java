@@ -11,7 +11,7 @@ import com.microsoft.azure.servicebus.*;
 public class App {
     public static void main(String[] args)
             throws ServiceBusException, ExecutionException, InterruptedException, IOException {
-        final String namespaceName = "sb://senzmate-event-test.servicebus.windows.net/";
+        final String namespaceName = "senzmate-event-test.servicebus.windows.net/";
         final String eventHubName = "eventhubdemo";
         final String sasKeyName = "RootManageSharedAccessKey";
         final String sasKey = "Vjd9tj+UqJ9P2D4R4yK5GcLfwS0Ej5hexf7lfjiywls=";
