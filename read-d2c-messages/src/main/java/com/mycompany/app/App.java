@@ -10,8 +10,8 @@ import java.util.function.*;
 
 public class App
 {
-    private static String connStr = "Endpoint=sb://ihsuprodblres054dednamespace.servicebus.windows.net/;EntityPath=iothub-ehub-senzmate-t-152234-5b0318888c;SharedAccessKeyName=iothubowner;SharedAccessKey=C501zOS2GC3FO7cCrDsWT9pCu+aDXf3+a+OkEfa1ePw=";
-
+    //private static String connStr = "Endpoint=sb://ihsuprodblres054dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=C501zOS2GC3FO7cCrDsWT9pCu+aDXf3+a+OkEfa1ePw=;EntityPath=iothub-ehub-senzmate-t-152234-5b0318888c";
+    private static String connStr = "Endpoint=sb://iothub-ns-jkcs-cg-io-92397-3fb341261b.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=wPcTY+XjZFN8hfCaWrpF9yRhpv2nfRixpkR6Cp75/MQ=;EntityPath=jkcs-cg-iotadb55";
     public static void main( String[] args ) throws IOException
     {
         EventHubClient client0 = receiveMessages("0");

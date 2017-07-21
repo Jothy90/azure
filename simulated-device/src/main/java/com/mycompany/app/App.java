@@ -17,9 +17,11 @@ import java.util.concurrent.ExecutorService;
 
 
 public class App {
-    private static String connString = "HostName=senzmate-test-hub.azure-devices.net;DeviceId=test-1-device-1;SharedAccessKey=1QzCJmAY1MDCHDCQKPAjpw==";
+    //private static String connString = "HostName=senzmate-test-hub.azure-devices.net;DeviceId=test-1-device-1;SharedAccessKey=1QzCJmAY1MDCHDCQKPAjpw==";
+    private static String connString = "HostName=jkcs-cg-iotadb55.azure-devices.net;DeviceId=SenzMate-DEV-C;SharedAccessKey=HKQFwb7o8uPppcKyTUqlzRPjad7lQqjcKYAbHytSgB8=";
     private static IotHubClientProtocol protocol = IotHubClientProtocol.MQTT;
-    private static String deviceId = "test-1-device-1";
+    private static String deviceId = "SenzMate-DEV-C";
+    //private static String deviceId = "test-1-device-1";
     private static DeviceClient client;
 
     public static void main( String[] args ) throws IOException, URISyntaxException {
